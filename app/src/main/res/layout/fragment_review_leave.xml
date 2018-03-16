@@ -1,0 +1,43 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"> //#637BA2  888B91
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/screen_bg2"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:visibility="gone"
+            android:orientation="horizontal">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:id="@+id/edit_search"
+                android:drawablePadding="10dp"
+                android:layout_margin="5dp"
+                android:hint="search by any"
+                android:background="@drawable/ractangle_box"
+                android:drawableLeft="@android:drawable/ic_menu_search"/>
+        </LinearLayout>
+
+
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@null"
+            android:dividerHeight="10dp"
+            android:layout_marginTop="15dp"
+            android:id="@+id/list_attandance">
+        </ListView>
+
+    </LinearLayout>
+
+</FrameLayout>

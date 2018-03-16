@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home_icon_8"
+            android:title="@string/nav_home" />
+        <item
+            android:id="@+id/nav_holiday"
+            android:icon="@drawable/holiday_icon"
+            android:title="@string/nav_holiday" />
+        <item
+            android:id="@+id/nav_attendance"
+            android:icon="@drawable/attendance_icon"
+            android:title="@string/nav_attendance" />
+
+        <item
+            android:id="@+id/nav_leave_app"
+            android:icon="@drawable/leave_icon"
+            android:title="@string/nav_leave_app" />
+
+      <!--  <item
+            android:id="@+id/nav_rev_leave_app"
+            android:icon="@drawable/review_leave_icon"
+            android:title="@string/nav_rev_leave_app" />-->
+
+        <item
+            android:id="@+id/nav_loan_app"
+            android:icon="@drawable/loan_icon"
+            android:title="@string/nav_loan_app" />
+        <item
+            android:id="@+id/nav_payslip"
+            android:icon="@drawable/payslip_icon"
+            android:title="@string/nav_payslip" />
+
+        <item
+            android:id="@+id/nav_notice"
+            android:icon="@drawable/notice_icon"
+            android:title="@string/nav_notice" />
+
+        <item
+            android:id="@+id/nav_leave_details"
+            android:icon="@drawable/leave_details"
+            android:title="@string/nav_leave_details" />
+    </group>
+
+    <item android:title="Other">
+        <menu>
+            <item
+                android:id="@+id/nav_about_us"
+                android:title="@string/nav_about_us" />
+            <item
+                android:id="@+id/nav_privacy_policy"
+                android:title="@string/privacy_policy" />
+        </menu>
+    </item>
+
+</menu>

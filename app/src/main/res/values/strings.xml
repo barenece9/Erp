@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">Erp</string>
+
+    <string name="forgot_password"><u>Forgot password </u>"?"</string>
+    <string name="new_user_reg"><u>New User ? Register here.</u></string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="openDrawer">open_drawer</string>
+    <string name="closeDrawer">close_drawer</string>
+
+    <!-- Navigation Drawer menu labels -->
+    <string name="nav_home">Home</string>
+    <string name="nav_holiday">Holiday List</string>
+    <string name="nav_attendance">Attendance List</string>
+    <string name="nav_leave_app">Leave Application</string>
+    <string name="nav_rev_leave_app">Review Leave Application</string>
+    <string name="nav_loan_app">Loan Application</string>
+    <string name="nav_payslip">Payslip</string>
+    <string name="nav_notice">Notice</string>
+    <string name="nav_leave_details">Leave Details</string>
+
+    <string name="nav_about_us">About Us</string>
+    <string name="privacy_policy">Change Password</string>
+
+    <!-- Toolbar titles when navigation menu item is selected -->
+    <string-array name="nav_item_activity_titles">
+        <item>Home</item>
+        <item>Holiday List</item>
+        <item>Attendance List</item>
+        <item>Leave Application</item>
+        <item>Review Leave Application</item>
+        <item>Loan Application</item>
+        <item>Payslip</item>
+        <item>Notice</item>
+        <item>Leave Details</item>
+    </string-array>
+
+    <string-array name="nav_item_activity_titles_2">
+        <item>Home</item>
+        <item>Holiday List</item>
+        <item>Attendance List</item>
+        <item>Leave Application</item>
+        <item>Loan Application</item>
+        <item>Payslip</item>
+        <item>Notice</item>
+        <item>Leave Details</item>
+    </string-array>
+
+    <string name="activity_title_about_us">Loan Application</string>
+    <string name="activity_title_privacy_policy">Privacy Policy</string>
+    <string name="action_clear_all">Clear All</string>
+    <string name="action_logout">Logout</string>
+    <string name="action_mark_all_read">Mark All as Read</string>
+
+</resources>

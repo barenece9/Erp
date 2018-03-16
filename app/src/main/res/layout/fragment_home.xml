@@ -1,0 +1,190 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/home_fram"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/screen_bg2"
+        android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/lnsel_logo_re"/>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:elevation="10dp"
+        card_view:cardCornerRadius="6dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_margin="0dp"
+                android:elevation="5dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:gravity="center"
+                    android:textSize="14sp"
+                    android:paddingLeft="5dp"
+                    android:textStyle="bold"
+                    android:background="#2a2565"
+                    android:textColor="@color/icons"
+                    android:text="PERSONAL DETAILS"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:gravity="center"
+                    android:paddingBottom="15dp"
+                    android:paddingTop="10dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="65dp"
+                        android:layout_height="65dp"
+                        android:layout_marginBottom="5dp"
+                        android:src="@drawable/personal"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/tv_name"
+                        android:gravity="center"
+                        android:textColor="#2a2565"
+                        android:textSize="12sp"
+                        android:layout_marginBottom="5dp"
+                        android:text="Name"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/tv_department"
+                        android:textColor="#2a2565"
+                        android:gravity="center"
+                        android:textSize="11sp"
+                        android:text="Department : Web Team"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/tv_designation"
+                        android:gravity="center"
+                        android:textColor="#2a2565"
+                        android:textSize="11sp"
+                        android:text="Designation : Developer"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight=".4"
+        android:layout_margin="1dp"
+        android:elevation="5dp"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:layout_gravity="bottom"
+        android:orientation="vertical">
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginBottom="5dp"
+           android:orientation="horizontal">
+
+           <Button
+               android:layout_width="match_parent"
+               android:layout_height="80dp"
+               android:gravity="center"
+               android:textSize="14sp"
+               android:paddingLeft="5dp"
+               android:theme="@style/AppTheme.Button"
+               android:textColor="@color/icons"
+               android:layout_weight="1"
+               android:background="@drawable/pay_slip"
+               android:id="@+id/btn_payslip"/>
+
+           <Button
+               android:layout_width="match_parent"
+               android:layout_height="80dp"
+               android:gravity="center"
+               android:textSize="14sp"
+               android:paddingLeft="5dp"
+               android:theme="@style/AppTheme.Button"
+               android:textColor="@color/icons"
+               android:layout_weight="1"
+               android:layout_marginLeft="20dp"
+               android:background="@drawable/leave_blance"
+               android:id="@+id/btn_leave_balance"/>
+
+       </LinearLayout>
+
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:textSize="14sp"
+            android:paddingLeft="5dp"
+            android:theme="@style/AppTheme.Button"
+            android:textColor="@color/icons"
+            android:layout_marginBottom="0dp"
+            android:background="@drawable/review_leave"
+            android:visibility="visible"
+            android:id="@+id/btn_review_leave_application"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:textSize="14sp"
+            android:paddingLeft="5dp"
+            android:textColor="@color/icons"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:id="@+id/btn_leave_application"
+            android:background="@drawable/leave_application" />
+
+
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="57dp"
+    android:background="@color/icons"
+    android:elevation="6dp"
+    android:orientation="horizontal">
+    <Button
+        android:layout_width="30dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="7dp"
+        android:id="@+id/header_btn_back"
+        android:backgroundTint="#2a2565"
+        android:background="@drawable/ic_keyboard_backspace_black_24dp" />
+    //42dp,50dp
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="ERP"
+        android:textSize="20sp"
+        android:textColor="#2a2565"
+        android:visibility="visible"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="3dp"
+        android:textStyle="bold"
+        android:layout_toEndOf="@+id/header_btn_back"
+        android:id="@+id/header_text_title" />
+    <Button
+        android:layout_width="40dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="5dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="5dp"
+        android:visibility="gone"
+        android:background="@drawable/ic_power_settings_new_black_24dp"
+        android:id="@+id/button" />
+
+</RelativeLayout>

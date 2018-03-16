@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#cccccc"
+    tools:context="com.lnsel.erp.activity.ApplyLeaveActivity">
+
+    <!--android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:divider="?android:listDivider"
+    android:dividerPadding="2.5dp"
+    android:showDividers="middle"-->
+
+    <include layout="@layout/header"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:orientation="vertical"
+        android:divider="?android:listDivider"
+        android:dividerPadding="2.5dp"
+        android:layout_margin="0dp"
+        android:background="@drawable/login_bg1"
+        android:gravity="center"
+        android:showDividers="middle">
+
+<!--android:background="#F8F9F9"-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:layout_weight=".8"
+            android:textColor="#000000"
+            android:text="LEAVE FROM DATE "/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:id="@+id/tv_frm_date"
+            android:layout_weight="1"
+            android:textColor="#000000"
+            android:text=""/>
+        <Button
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:id="@+id/btn_frm_date"
+            android:background="@android:drawable/ic_menu_my_calendar"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="4dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:layout_weight=".8"
+            android:textColor="#000000"
+            android:text="LEAVE TO DATE "/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:id="@+id/tv_to_date"
+            android:layout_weight="1"
+            android:textColor="#000000"
+            android:text=""/>
+        <Button
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:id="@+id/btn_to_date"
+            android:background="@android:drawable/ic_menu_my_calendar"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="4dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:layout_weight="1"
+            android:textColor="#000000"
+            android:text="LEAVE TYPE"/>
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:gravity="center_vertical"
+            android:layout_weight="1"
+            android:id="@+id/spinner_leave_type"
+
+            android:text="2017-05-18"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="4dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:layout_weight="1"
+            android:layout_marginTop="5dp"
+            android:textColor="#000000"
+            android:text="REASON OF LEAVE"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:gravity="center_vertical"
+            android:layout_weight="1"
+            android:layout_marginTop="5dp"
+            android:id="@+id/etn_reason_of_leave"
+            android:background="@drawable/ractangle_box_new"
+            android:textSize="14sp"
+            android:paddingLeft="5dp"
+            android:textColor="#000000"
+            android:hint="enter reason"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="15dp">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:id="@+id/btn_back"
+            android:theme="@style/AppTheme.Button"
+            android:elevation="10dp"
+            android:textColor="@color/icons"
+            android:text="Back"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:id="@+id/btn_submit"
+            android:gravity="center"
+            android:theme="@style/AppTheme.Button"
+            android:textColor="@color/icons"
+            android:elevation="10dp"
+            android:text="Submit"/>
+
+    </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>
